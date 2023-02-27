@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
 
 body{
-    background-color: hsl(0, 100%, 74%);
+    /* background-color: hsl(0, 100%, 74%); */
     margin-top: 5px;
     font-size: 16px;
     font-family:"Poppins";
@@ -20,5 +20,13 @@ body{
     font-size: 16px;
     align-self: center;
     font-family:"Poppins";
+    /* font-weight: 700; */
+}
+
+#content h1{
     font-weight: 700;
+}
+
+#content p{
+    font-weight: 400;
 }
