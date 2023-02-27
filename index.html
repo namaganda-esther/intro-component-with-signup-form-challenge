@@ -13,7 +13,7 @@
     <div class="container my-5">
         <div class="card text-center my-5 p-5" style="background-color: hsl(0, 100%, 74%);">
             <div class="row">
-                <div class="col-md-6 pt-5 text-white" id="content">
+                <div class="col-md-6 pt-5 text-white text-start" id="content">
                     <h1 class="card-text">Learn to code by watching others</h1>
                     <p class="card-text">See how experienced developers solve problems 
                         in real-time. Watching scripted tutorials is
@@ -23,30 +23,24 @@
                 </div>
                 <div class="col-md-6">
                     <div class="card mb-4">
-                        <button class="btn btn-sm text-white"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+                        <button class="btn text-white"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
                     </div>
-                    <div class="card p-5 border border-1 rounded-3">
+                    <div class="card p-5 border border-1 rounded-3 text-muted">
                         <form action="">
-                            <input type="text" class="form-control is-invalid border-2" id="fname" aria-describedby="fnameFeedback" required>
-                            <div id="fnameFeedback" class="invalid-feedback">
-                            <p class="text-end">First Name cannot be Empty</p> 
+                            <input type="text" class="form-control form-control-lg border-2 mb-3 text-muted" id="fname" placeholder="First Name" required>
+                           
+                            <input type="text" class="form-control form-control-lg border-2 mb-3 text-muted" id="lname" placeholder="Last Name" required>
+                            
         
-                            <input type="text" class="form-control is-invalid border-2" id="lname" aria-describedby="lnameFeedback" required>
-                            <div id="lnameFeedback" class="invalid-feedback">
-                            <p class="text-end">First Name cannot be Empty</p> 
+                            <input type="email" class="form-control form-control-lg border-2 mb-3 text-muted" id="email" placeholder="Email Address" required>
+                           
         
-                            <input type="email" class="form-control is-invalid border-2" id="email" aria-describedby="emailFeedback" placeholder="email@example/com" required>
-                            <div id="emailFeedback" class="invalid-feedback">
-                            <p class="text-end">looks like this is not an email</p> 
-        
-                            <input type="password" class="form-control is-invalid border-2" id="password" aria-describedby="passwordFeedback" required>
-                            <div id="passwordFeedback" class="invalid-feedback">
-                            <p class="text-end">Password cannot be Empty</p> 
+                            <input type="password" class="form-control form-control-lg border-2 mb-3 text-muted" id="password" placeholder="Password" required>
     
-                            <button class="btn btn-sm form-control text-white" id="sub-button" type="submit">CLAIM YOUR FREE TRIAL</button>
+                            <button class="btn btn-success btn-sm form-control mb-3 text-muted" id="sub-button" type="submit">CLAIM YOUR FREE TRIAL</button>
                         </form>  
                     </div>
-                    <p class="text-center mt-3">By clicking the button, you are agreeing to our <mark>Terms and Services</mark></p>
+                    <p class="text-center text-muted mt-3">By clicking the button, you are agreeing to our <mark>Terms and Services</mark></p>
 
                 </div>
             </div>
